@@ -1,3 +1,5 @@
+
+
 const ghibliMovie = Vue.createApp({
 
 
@@ -97,4 +99,17 @@ const ghibliMovie = Vue.createApp({
     }
 })
 
-ghibliMovie.mount("#app");        
+ghibliMovie.mount("#app");
+
+// GRRENSOCK //
+
+{
+    gsap.from(".stu", {duration: 3, x:500, autoAlpha: 0, onComplete: tweenCompleted});
+
+    function tweenCompleted(){
+        console.log("the animation has completed")
+    }
+  
+	 let tl = gsap.timeline();
+	 tl.staggerFrom(".col-span-full", 1, {autoAlpha:0, scale:0, ease: "elastic.out(0.2)"}, .5);
+};
