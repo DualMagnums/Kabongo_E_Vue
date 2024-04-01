@@ -3,6 +3,11 @@
 In this assignment we were introduced to the basic concepts of connecting a Vue.js frontend to a Lumen API.
 And using those technologies I created a simple web application that fetches and displays data from an API of my choice
 
+## API Details
+
+Studio Ghibli API - https://ghibliapi.vercel.app/#
+Official Github - https://github.com/deywersonp/ghibliapi
+
 ## Contributing
 
 1. Fork it!
