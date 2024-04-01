@@ -1,7 +1,7 @@
 # VUE and AJAX
 
 In this assignment we were introduced to the basic concepts of connecting a Vue.js frontend to a Lumen API.
-And using those technologies I created a simple web application that fetches and displays data from an API of my choice
+And using those technologies I created a simple web application that fetches and displays data from an API of my choice. I decided to build a Studio Ghibli Web Application. In honour of well-known managa artist Akira Toriyama's passing, who did not create the Studio Ghibli movies, but was heavily inspired by them
 
 ## API Details
 
